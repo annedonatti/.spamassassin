@@ -1,0 +1,23 @@
+required_score 2
+describe RCVD_IN_BRBL_LASTEXT Last external relay in Barracuda RBL
+describe RCVD_IN_PBL Last ext relay in Spamhaus PBL (Non-MTA IPs)
+describe RCVD_IN_SBL Rcvd via a relay in Spamhaus SBL (Direct UBE)
+describe RCVD_IN_XBL Last ext relay in Spamhaus XBL (exploits)
+describe URIBL_BLACK Contains a URL listed in black.uribl.com
+describe URIBL_DBL_SPAM Contains a URL listed in the Spamhaus DBL
+score BAYES_40 1
+score BAYES_50 2
+score BAYES_60 3
+score BAYES_80 4
+score BAYES_95 5
+score BAYES_99 6
+score RCVD_IN_BL_SPAMCOP_NET 0 1.246 0 1.347
+score RCVD_IN_BRBL_LASTEXT 10
+score RCVD_IN_PBL 10
+score RCVD_IN_SBL 10
+score RCVD_IN_XBL 10
+score SPF_FAIL 5
+score SPF_NEUTRAL 0
+score SPF_PASS 0
+score URIBL_BLACK 10
+score URIBL_DBL_SPAM 10
